@@ -1,0 +1,73 @@
+/*
+Theme Name: Application Raven
+Theme URI: https://aktaruzzaman.com/
+Author: Aktar Uz Zaman
+Author URI: https://aktaruzzaman.com/
+Description: This is a custom theme for ApplicationRaven Site
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: applicationraven
+*/
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1F1F1F;
+    font-family: 'Spartan', sans-serif;
+    padding-top:90px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1440px;
+    margin:0 auto;
+    padding-left:201px;
+    padding-right:131px;
+}
+/*Header*/
+.header .logo h1{
+color:#ffffff;
+font-weight: 500;
+font-size: 30px;
+line-height: 34px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo{
+    flex-basis: 54%;
+}
+.header .nav-menu{
+    flex-basis:46%;
+}
+.nav-menu nav .menu > ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menu .menu ul > li{
+    margin-right: 63px;
+}
+.nav-menu .menu ul > li:last-child{
+    margin-right: 0px;
+}
+.nav-menu .menu li  a{
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.nav-menu .menu li.current_page_item  a{
+color: #D36643;
+}
